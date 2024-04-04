@@ -1,0 +1,6 @@
+.sortDirection {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: left;
+    margin: 0 2rem;
+}
