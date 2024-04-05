@@ -25,11 +25,9 @@ const Fetch = () => {
     }, []);
 
     const handleCheckboxClick = (id) => {
-        // for {id} set isCompleted to its opposite
         console.log(`Checkbox clicked for task with ID: ${id}`);
         const updatedTasks = tasks.map(task => {
           if (task.id === id) {
-            // Toggle the isCompleted property
             return {
               ...task,
               isCompleted: !task.isCompleted
